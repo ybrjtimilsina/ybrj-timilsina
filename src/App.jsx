@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Play, BookOpen, Youtube, Mail, Menu, X } from 'lucide-react';
-import './App.css';
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
